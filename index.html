@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IQ & Impact Basketball Camp | Idris Ibn Idris Guard Academy</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #0b1d3f;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1508873696983-2dfd5898f68e?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      color: #ffcc00;
+      text-shadow: 2px 2px 8px #000;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      max-width: 700px;
+    }
+    .btn {
+      background: #ffcc00;
+      color: #0b1d3f;
+      padding: 15px 35px;
+      font-weight: bold;
+      font-size: 1.25rem;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #e6b800;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section h2 {
+      color: #ffcc00;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    section p, ul {
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    ul li {
+      background: #193261;
+      border-radius: 12px;
+      padding: 15px 20px;
+      flex: 1 1 250px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    ul li span {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 8px;
+    }
+    footer {
+      background: #071228;
+      text-align: center;
+      padding: 20px 10px;
+      color: #999;
+      font-size: 0.9rem;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1.1rem;
+      }
+      section h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Unlock Your Full Potential</h1>
+  <p>Train Like a Pro Guard with Idris Ibn Idris!</p>
+  <a href="#register" class="btn">Join the Academy Now</a>
+</header>
+
+<section id="about">
+  <h2>Why IQ & Impact?</h2>
+  <p>At IQ & Impact, basketball is as much about the mind as the body. This camp is designed for young guards looking to sharpen their court IQ, master elite skills, and develop the mental toughness needed to lead any team to victory. Led by Idris Ibn Idris — a dynamic binational leader with years of high-level playing and coaching experience — this is more than a camp; it’s a movement.</p>
+  <ul>
+    <li><span>🧠</span> Basketball IQ drills & game analysis</li>
+    <li><span>⚡</span> Elite ball-handling & shooting sessions</li>
+    <li><span>💪</span> Mental toughness & leadership workshops</li>
+    <li><span>🌍</span> Embrace your unique identity & culture</li>
+    <li><span>🤝</span> Build lifelong friendships & network</li>
+  </ul>
+</section>
+
+<section id="details">
+  <h2>Camp Details</h2>
+  <p><strong>Date:</strong> July 15–20, 2025</p>
+  <p><strong>Location:</strong> San Diego Sports Complex, CA</p>
+  <p><strong>Ages:</strong> 12–18 years old</p>
+  <p><strong>Level:</strong> Beginner to advanced guards welcome</p>
+</section>
+
+<section id="register">
+  <h2>Ready to Join?</h2>
+  <p>Register now to secure your spot in this transformative basketball experience. Limited spots available!</p>
+  <form action="mailto:+16199199995" method="POST" enctype="text/plain" style="max-width:400px; margin:auto;">
+    <label for="name">Full Name:</label><br />
+    <input type="text" id="name" name="Name" required style="width:100%; padding:8px; margin-bottom:15px;" /><br />
+    
+    <label for="age">Age:</label><br />
+    <input type="number" id="age" name="Age" min="12" max="18" required style="width:100%; padding:8px; margin-bottom:15px;" /><br />
+    
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="Email" required style="width:100%; padding:8px; margin-bottom:15px;" /><br />
+    
+    <label for="phone">Phone Number (WhatsApp preferred):</label><br />
+    <input type="tel" id="phone" name="Phone" placeholder="+1 619-919-9995" required style="width:100%; padding:8px; margin-bottom:15px;" /><br />
+    
+    <button type="submit" class="btn" style="width:100%;">Submit Registration</button>
+  </form>
+  <p style="text-align:center; margin-top:15px; font-size:0.9rem; color:#bbb;">Or contact us directly on WhatsApp at <a href="https://wa.me/16199199995" target="_blank" style="color:#ffcc00;">+1 619-919-9995</a></p>
+</section>
+
+<footer>
+  <p>“Hard work beats talent when talent doesn’t work hard.” – Idris Ibn Idris</p>
+</footer>
+
+</body>
+</html>
